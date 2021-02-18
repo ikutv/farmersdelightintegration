@@ -5,7 +5,7 @@ license="MIT License"
 
 [[mods]]
 modId="farmersdelightintegration"
-version="1.16.5-1.0.0"
+version="1.16.5-1.0.1"
 displayName="Farmer's Delight Integration"
 # updateJSONURL=""
 # displayURL=""
@@ -29,9 +29,9 @@ versionRange="[1.16.3]"
 ordering="NONE"
 side="BOTH"
 
-#[[dependencies.farmersdelightintegration]]
-#modId = "farmersdelight"
-#mandatory = true
-#versionRange = "[1.16.3-0.3.2,)"
-#ordering = "AFTER"
-#side = "BOTH"
+[[dependencies.farmersdelightintegration]]
+modId = "farmersdelight"
+mandatory = true
+versionRange = "[1.16.3-0.3.2,)"
+ordering = "AFTER"
+side = "BOTH"
